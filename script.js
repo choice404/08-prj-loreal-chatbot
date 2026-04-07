@@ -6,7 +6,7 @@ const chatWindow = document.getElementById("chatWindow");
 /* ——— Configuration ——— */
 // For local development, set API_KEY in secrets.js
 // For production, replace this URL with your Cloudflare Worker endpoint
-const WORKER_URL = ""; // e.g. "https://loreal-chatbot.your-subdomain.workers.dev"
+const WORKER_URL = "loreal-chatbot.austinch20.workers.dev"; // e.g. "https://loreal-chatbot.your-subdomain.workers.dev"
 
 const SYSTEM_PROMPT = `You are L'Oréal's official Beauty Advisor chatbot. Your role is to help users discover and understand L'Oréal's extensive range of products across makeup, skincare, haircare, and fragrances. You can also provide personalized beauty routines and product recommendations.
 
